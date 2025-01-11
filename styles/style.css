@@ -36,9 +36,7 @@
     border-radius: 24px;
     background: rgb(198, 228, 214);
  }
- .description-1{
 
- }
  .text-1{
     color: rgba(14, 14, 14, 0.5);
     font-size: 18px;
@@ -57,7 +55,6 @@
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0%;
     padding: 17px 34px 17px 34px;
     border: none;
     border-radius: 8px;
@@ -228,7 +225,7 @@
 
  /* Donate Section Style */
 .call-to-action{
-
+    margin: 80px 0;
 }
 .donate-head{
     color: rgb(14, 14, 14);
@@ -281,16 +278,27 @@
     background: rgb(236, 235, 235);
 }
 #btn-div{
-    border: 1px solid rgba(14, 14, 14, 0.1);
+    /* border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 0 auto;
     padding: 17px 34px 17px 34px;
 }
 
 /* Style of Newsletter section */
+.newsletter{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 80px 0px;
+    padding: 80px 100px 80px 100px;
+
+}
 .nsl-header{
     color: rgb(14, 14, 14);
     font-size: 40px;
@@ -310,13 +318,51 @@
 .nsl-input{
     width: 600px;
     height: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 24;
-    padding: 18px 40px 18px 40px;
+    padding: 16px 40px 17px 40px;
+    border: none;
     border-radius: 8px 0px 0px 8px;
-    background: rgb(255, 255, 255);
+    background: rgb(236, 235, 235);
+}
+.nsl-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 17px 34px 17px 34px;
+    margin: 0 -20px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    }
 
+#input-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.promiss{
+    color: rgba(14, 14, 14, 0.7);
+    font-size:16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+/* Footer style */
+footer{
+    margin-top: 140px;
+}
+.footer-title{
+    color: rgb(14, 14, 14);
+    font-size: 28px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom: 35px;
+}
+.contact{
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
